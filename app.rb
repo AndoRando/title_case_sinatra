@@ -5,7 +5,7 @@ get('/') do
    erb(:home)
 end
 
-get('/') do
+get('/results') do
   @title = params.fetch('title')
   erb(:results)
 end
